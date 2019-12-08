@@ -1,0 +1,210 @@
+$color_red: #C73912
+$color_brown: #A8805D
+
+*
+  font-family: 微軟正黑體
+  // debug
+  // border: solid 1px
+  // section, header
+  //   display: none
+  // footer.jumbotron
+  //   display: block
+    
+    
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+body
+  height: 1000px
+
+nav.navbar
+  transform: 0.5s
+  height: 40px
+  background-color: darken(#fff,5)
+  
+nav.navbar.navbar-expand-md.navbar-light.fixed-top.navbar-top
+  background-color: rgba(black, 0.4)
+  transform: 0.5s
+  a
+    transition-duration: 0.5s
+    color: rgba(white, 0.8)
+    &:hover
+      color: $color_red
+  
+  
+  
+header.jumbotron
+  margin-bottom: 0px
+  text-align: center
+  background-image: url(https://i1.wp.com/popbee.com/image/2018/10/Warner-Bros-hollywood-version-Attack-on-Titan-Andy-Muschietti-to-Direct-1.jpg?quality=95&)
+  background-position: center 80%
+  background-size: cover 
+  background-attachment: fixed
+  border-radius: 0px
+  .container
+    padding: 200px
+    color: white
+    h1
+      white-space: nowrap
+      font-size: 60px
+      background-color: rgba(black, 0.4)
+      display: inline-block
+      padding: 5px 15px
+      letter-spacing: 1px
+    h6
+      opacity: 0.9
+    hr
+      color: $color_red
+      max-width: 60px
+      border-bottom: solid 4px
+      
+section
+  padding: 50px 0px
+  
+section#section_story
+  background-color: $color_red
+  .col-sm-5.img
+    background-image: url(http://p1.pstatp.com/large/1bf40004b4033380e8de)
+    background-position: 50% 50%
+    height: 350px
+  p
+    margin-top: 30px
+    letter-spacing: 1px
+    color: rgba(white, 0.8)
+    margin-left: 15px
+    
+section#section_character
+  img
+    width: 100%
+    margin-left: -12px
+  h4
+    margin-bottom: 0px
+  span
+    font-size: 13px
+  p
+    font-size: 13px
+    opacity: 0.7
+
+section#section_equipment
+  background-color: $color_brown
+  color: white
+  text-align: center
+  letter-spacing: 1px
+  hr
+    border-bottom: solid 1px 
+  img
+    width: 110%
+    margin-left: -25px
+    mix-blend-mode: multiply
+  .col-sm-12.feature
+    opacity: 0.8
+    i
+      margin-top: 10px
+      font-size: 40px
+    h5
+      margin-top: 8px
+  .col-sm-12.text
+    opacity: 0.8
+    margin-top: 10px
+    
+section#section_army
+  .col-md-3
+    text-align: center
+    letter-spacing: 1px
+  .army1
+    &:hover
+      .army1_p
+        opacity: 0.7
+        transform: translateY(0px)
+  .army2
+    &:hover
+      .army2_p
+        opacity: 0.7
+        transform: translateY(0px)
+  .army3
+    &:hover
+      .army3_p
+        opacity: 0.7
+        transform: translateY(0px)
+  .army4
+    &:hover
+      .army4_p
+        opacity: 0.7
+        transform: translateY(0px)
+  img
+    width: 100%
+    height: 250px
+    border-radius: 5px
+    margin-bottom: 5px
+  h4
+    margin-top: 5px
+    margin-bottom: 2px
+  span
+    opacity: 0.7
+  p
+    margin-top: 2px
+    font-size: 13px
+    opacity: 0
+    height: 200px 
+    transform: translateY(30px)
+    transition: 0.5s
+
+footer.jumbotron
+  text-align: center
+  background-image: url(https://i1.wp.com/popbee.com/image/2018/10/Warner-Bros-hollywood-version-Attack-on-Titan-Andy-Muschietti-to-Direct-1.jpg?quality=95&)
+  background-position: center 80%
+  background-size: cover 
+  background-attachment: fixed
+  border-radius: 0px
+  margin: 0px
+  position: relative
+  .container
+    padding: 200px 0px
+    h3
+      color: white
+      background-color: rgba(black, 0.4)
+      display: inline-block
+      padding: 5px 15px
+      letter-spacing: 1px
+    input
+      background-color: rgba(white, 0.3)
+      text-align: center
+      margin-left: auto
+      margin-right: auto
+      width: 300px
+      height: 30px
+      border: solid 1px rgba(white, 0.6)
+    hr
+      color: $color_red
+      max-width: 60px
+      border-bottom: solid 3px
+    button
+      padding: 3px 15px
+      height: 30px
+  // .enter
+  //   width: 300px
+  //   height: 150px
+  //   border-radius: 4px
+  //   background-color: #fff
+  //   position: absolute
+  //   box-shadow: 0px 0px 10px rgba($color_red, 0.8)
+  //   left: 50%
+  //   top: 40%
+  //   transform: translateX(-50%)
+  //   // opacity: 0
+  //   p
+  //     position: absolute
+  //     font-size: 18px
+  //     font-weight: bold
+  //     letter-spacing: 1px
+  //     left: 50%
+  //     top: 50%
+  //     transform: translateX(-50%) translateY(-70%)
+  //   .p2
+  //     top: 80%
+  //     transform: translateX(-50%)
+  //     background-color: rgba(#333, 0.2)
+  //     border-radius: 3px
+  //     padding: 2px 4px
+  //     font-size: 13px
+  //     font-weight: 500
+  //     cursor: pointer
